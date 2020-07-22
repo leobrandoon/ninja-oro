@@ -1,19 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Ninja-Gold</span>
+    </nav>
+    <Contador/>
+    <Buscador/>
+    <!-- aca falta importar las acciones -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Buscador from "./components/Buscador.vue";
+import Contador from "./components/Contador.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Buscador,Contador
   }
-}
+};
 </script>
 
 <style>
