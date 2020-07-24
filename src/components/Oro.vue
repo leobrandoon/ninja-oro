@@ -27,9 +27,9 @@ export default {
       StoreGold.suma_oros(nuevo_oro);
       // 3. agregar una nueva actividad indicando cuantos oros gané
       if (nuevo_oro <= 0) {
-        StoreGold.addActividad(`Perdí  ${nuevo_oro} oros en ${this.name}`);
+        StoreGold.addActividad(`Perdiste  ${nuevo_oro} oros en ${this.name}`);
       } else {
-        StoreGold.addActividad(`ane  ${nuevo_oro} oros en ${this.name}`);
+        StoreGold.addActividad(`Ganaste  ${nuevo_oro} oros en ${this.name}`);
       }
     }
   }

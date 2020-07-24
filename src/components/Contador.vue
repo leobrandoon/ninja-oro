@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Captura  100 Oros {{numero_oros}}</h2>
+    <h2>Captura  50 Oros </h2>
     <h4>Has capturado {{numero_oros}}</h4>
   </div>
 </template>

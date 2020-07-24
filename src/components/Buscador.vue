@@ -39,6 +39,13 @@ export default {
   },
   data: () => {
     return StoreGold.state;
+  },
+  updated(){
+    if (this.numero_oros ==100){
+      alert('Encontraste los 100')
+    } else if( this.numero_oros < 0){
+      alert('Perdiste Chaval')
+    }
   }
 };
 </script>
