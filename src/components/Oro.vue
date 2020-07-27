@@ -2,10 +2,10 @@
   <div class="card">
     <div class="card-body">
       <h5 class="card-title">{{name}}</h5>
-      <p class="card-text">Earns {{min_gold}} - {{max_gold}}</p>
+      <p class="card-text">Goldss {{min_gold}} - {{max_gold}}</p>
       <a href="#" class="btn btn-primary" @click="suma_oros">Buscar</a>
     </div>
-  </div>
+  </div>  
 </template>
 <script>
 import StoreGold from "@/StoreGold.js";

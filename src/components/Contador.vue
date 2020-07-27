@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>Captura  50 Oros </h2>
-    <h4>Has capturado {{numero_oros}}</h4>
+    <h2>Captura 100 Golds para ganar</h2>
+    <h4>Has capturado {{numero_oros}} Golds</h4>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   name: "Contador",
   data: () => {
     return StoreGold.state;
-  }
+  },
 };
 </script>
 

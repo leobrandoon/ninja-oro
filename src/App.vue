@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <!-- As a heading -->
     <nav class="navbar navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1">Ninja-Gold</span>
+      <span class="navbar-brand mb-0 h1">Manzo Gold</span>
     </nav>
     <Contador/>
     <Buscador/>
